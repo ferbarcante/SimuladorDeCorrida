@@ -11,7 +11,7 @@ public class Veiculo {
 
     public void atualizarVelocidade() {
         Random random = new Random();
-        this.velocidade = random.nextInt(3) + 1; // Gera um número aleatório entre 1 e 3
+        this.velocidade = random.nextInt(3) + 1; // Gera um número aleatório entre um e tres
     }
 
     public int getVelocidade() {
